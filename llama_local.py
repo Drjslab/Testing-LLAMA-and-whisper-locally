@@ -2,6 +2,8 @@ from langchain.llms import LlamaCpp
 # from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.prompts import PromptTemplate
 
+# run following line before runnning the code;
+# huggingface-cli download TheBloke/Llama-2-7b-Chat-GGUF llama-2-7b-chat.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False
 
 model_file = "llama-2-7b-chat.Q4_K_M.gguf"
 
